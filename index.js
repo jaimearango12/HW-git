@@ -14,3 +14,12 @@ console.log(variable);*/
 //para variables const se pueden agregar datos con el metodo push cuando son arreglos
 
 //INICIO DE APLICACION CON UN API
+
+const express = require('express')
+const app = express()
+
+app.get('*', (request, response) =>{
+    response.send({message: 'ejemplo'})
+})
+
+app.listen(3000, () => console.log('el servidor corre en el puerto 3000'))
