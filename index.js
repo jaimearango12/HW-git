@@ -15,6 +15,8 @@ console.log(variable);*/
 
 //INICIO DE APLICACION CON UN API
 
+//voy a usar el framework express JS
+
 const express = require('express')
 const app = express()
 
